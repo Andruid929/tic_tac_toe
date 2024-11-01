@@ -15,7 +15,8 @@ public class Toe {
     static final Color BG_COLOUR = new Color(30, 32, 40);
     static final Color TEXT_COLOUR = new Color(255, 255, 255);
 
-    static JFrame frame = new JFrame(System.getenv("USERNAME") + "'s TacTic"); //Get username and set as title
+    static JFrame frame = new JFrame(System.getenv("USERNAME")
+            + "'s TacTic"); //Get username and set as title
     static JPanel panel = new JPanel(null);
 
     static JButton button1 = new JButton();
@@ -108,7 +109,7 @@ public class Toe {
 
         button6.setBounds(210, 155, 75, 100);
         button6.setBackground(BG_COLOUR);
-        button6.setActionCommand("6");
+        button6.setActionCommand("1");
         panel.add(button6);
 
         //Third row

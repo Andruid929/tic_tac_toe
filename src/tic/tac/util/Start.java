@@ -4,7 +4,7 @@ import tic.tac.Toe;
 
 public class Start {
 
-    void main() {
+    public static void main(String[] args) {
         new Toe();
     }
 }
